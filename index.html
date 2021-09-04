@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тагилтурист - турфирма официальный сайт город Нижний Тагил</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="hero-block">
+      <div class="hero-block__wrap">
+        <header class="header">
+          <div class="nav">
+            <a class="logo" href="#">
+              <img src="images/logo.svg" alt="Logo">
+            </a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#">Туристам</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#">Агентствам</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#"> О компании</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <a class="navigation" href="#">
+            <span class="navigation-icon"></span> Екатеринбург
+          </a>
+        </header>
+
+        <div class="search">
+          <div class="from">
+            <label for="from">
+              <span class="icon circle"></span>
+            </label>
+            <input type="text" id="from" name="from" placeholder="Из" value="Екатеринбург, Россия" />
+            <button class="reverse" type="submit" title="Поменять местами"></button>
+          </div>
+          <div class="to">
+            <label for="to">
+              <span class="icon location"></span>
+            </label>
+            <input type="text" id="to" name="to" placeholder="В" value="Анталия, Турция" />
+          </div>
+          <div class="calendar">
+            <label for="date">
+              <span class="icon date"></span>
+            </label>
+            <input type="text" placeholder="" value="01 июн - 10 июн" id="date" />
+            <span class="spread"></span>
+            <input class="days" type="text" placeholder="" value="6 - 14 ночей" />
+          </div>
+          <div class="person">
+            <label for="traveller">
+              <span class="icon traveller"></span>
+            </label>
+            <input type="text" placeholder="" value="2 взрослых" id="traveller" />
+          </div>
+          <button class="send" type="submit">Найти туры</button>
+        </div>
+
+        <div class="hero-slider">
+          <div class="splide__track">
+            <div class="splide__list">
+              <div class="splide__slide" style="background-image: url(images/bg1.jpg);">
+                <div class="hero-slider__box">
+                  <p class="box-title wow fadeInDown" data-wow-delay="0.25s">Туры в Грецию</p>
+                  <p class="box-subtitle wow fadeInDown" data-wow-delay="0.5s">Чистейшее море и яркое солнце!</p>
+                  <div class="box-more">
+                    <a class="btn-more wow fadeInRight" href="#" data-wow-delay="0.75s">Узнайте больше</a>
+                    <span class="wow fadeInLeft" data-wow-delay="1s">о возможности раннего бронирования</span>
+                  </div>
+                </div>
+                <!-- <img src="images/bg1.jpg" alt=""> -->
+              </div>
+              <div class="splide__slide" style="background-image: url(images/bg2.jpg);">
+                <div class="hero-slider__box">
+                  <p class="box-title">Туры в ОАЭ</p>
+                  <p class="box-subtitle">Уникальные впечатления!</p>
+                  <div class="box-more">
+                    <a class="btn-more" href="#">Узнайте больше</a>
+                    <span>о возможности раннего бронирования</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main class="main">
+
+      <section class="resorts container">
+        <div class="resorts__title">
+          <h2 class="h2 wow fadeInLeft">Все виды отдыха</h2>
+        </div>
+        <div class="resorts__content">
+          <a href="#" class="resort-link wow fadeIn" data-wow-delay="0.05s"
+            style="background-image: url(images/resort-1.jpg);">
+            <span class="link-text">Пляжный</span>
+            <span class="link-icon" style="background-image: url(images/icons/resorts/resort-1.svg);"></span>
+          </a>
+          <a href="#" class="resort-link wow fadeIn" data-wow-delay="0.1s"
+            style="background-image: url(images/resort-2.jpg);">
+            <span class="link-text">Экскурсионный</span>
+            <span class="link-icon" style="background-image: url(images/icons/resorts/resort-2.svg);"></span>
+          </a>
+          <a href="#" class="resort-link wow fadeIn" data-wow-delay="0.15s"
+            style="background-image: url(images/resort-3.jpg);">
+            <span class="link-text">Круизный</span>
+            <span class="link-icon" style="background-image: url(images/icons/resorts/resort-3.svg);"></span>
+          </a>
+          <a href="#" class="resort-link wow fadeIn" data-wow-delay="0.2s"
+            style="background-image: url(images/resort-4.jpg);">
+            <span class="link-text">Горнолыжный</span>
+            <span class="link-icon" style="background-image: url(images/icons/resorts/resort-4.svg);"></span>
+          </a>
+          <a href="#" class="resort-link wow fadeIn" data-wow-delay="0.25s"
+            style="background-image: url(images/resort-5.jpg);">
+            <span class="link-text">Дайвинг</span>
+            <span class="link-icon" style="background-image: url(images/icons/resorts/resort-5.svg);"></span>
+          </a>
+          <a href="#" class="resort-link wow fadeIn" data-wow-delay="0.3s"
+            style="background-image: url(images/resort-6.jpg);">
+            <span class="link-text">Детский</span>
+            <span class="link-icon" style="background-image: url(images/icons/resorts/resort-6.svg);"></span>
+          </a>
+          <a href="#" class="resort-link wow fadeIn" data-wow-delay="0.35s"
+            style="background-image: url(images/resort-7.jpg);">
+            <span class="link-text">Активный</span>
+            <span class="link-icon" style="background-image: url(images/icons/resorts/resort-7.svg);"></span>
+          </a>
+          <a href="#" class="resort-link wow fadeIn" data-wow-delay="0.4s"
+            style="background-image: url(images/resort-8.jpg);">
+            <span class="link-text">Экзотический</span>
+            <span class="link-icon" style="background-image: url(images/icons/resorts/resort-8.svg);"></span>
+          </a>
+          <a href="#" class="resort-link wow fadeIn" data-wow-delay="0.45s"
+            style="background-image: url(images/resort-9.jpg);">
+            <span class="link-text">Походный</span>
+            <span class="link-icon" style="background-image: url(images/icons/resorts/resort-9.svg);"></span>
+          </a>
+          <a href="#" class="resort-link wow fadeIn" data-wow-delay="0.5s"
+            style="background-image: url(images/resort-10.jpg);">
+            <span class="link-text">СПА</span>
+            <span class="link-icon" style="background-image: url(images/icons/resorts/resort-10.svg);"></span>
+          </a>
+          <a href="#" class="resort-link wow fadeIn" data-wow-delay="0.55s"
+            style="background-image: url(images/resort-11.jpg);">
+            <span class="link-text">Свадебный</span>
+            <span class="link-icon" style="background-image: url(images/icons/resorts/resort-11.svg);"></span>
+          </a>
+          <a href="#" class="resort-link wow fadeIn" data-wow-delay="0.6s"
+            style="background-image: url(images/resort-12.jpg);">
+            <span class="link-text">Корпоративный</span>
+            <span class="link-icon" style="background-image: url(images/icons/resorts/resort-12.svg);"></span>
+          </a>
+        </div>
+      </section>
+
+      <section class="destinations container">
+        <div class="destinations__title">
+          <h2 class="h2 wow fadeInLeft">Популярные направления</h2>
+        </div>
+        <div class="destinations__content">
+          <div class="dest-box box--1 wow fadeIn" style="background-image: url(images/dest-1.jpg);">
+            <a href="#" class="dest-box__title wow fadeInDown" data-wow-delay="0.5s">
+              Абхазия
+              <span class="dest-box__price">от 25 341 ₽</span>
+            </a>
+          </div>
+          <div class="dest-box box--2 wow fadeIn" style="background-image: url(images/dest-2.jpg);">
+            <a href="#" class="dest-box__title wow fadeInDown" data-wow-delay="0.5s">
+              Россия
+              <span class="dest-box__price">от 31 345 ₽</span>
+            </a>
+          </div>
+          <div class="dest-box box--3 wow fadeIn" style="background-image: url(images/dest-3.jpg);">
+            <a href="#" class="dest-box__title wow fadeInDown" data-wow-delay="0.5s">
+              Тайланд
+              <span class="dest-box__price">от 35 167 ₽</span>
+            </a>
+          </div>
+          <div class="dest-box box--4 wow fadeIn" style="background-image: url(images/dest-4.jpg);">
+            <a href="#" class="dest-box__title wow fadeInDown" data-wow-delay="0.5s">
+              Турция
+              <span class="dest-box__price">от 22 148 ₽</span>
+            </a>
+          </div>
+          <div class="dest-box box--5 wow fadeIn" style="background-image: url(images/dest-5.jpg);">
+            <a href="#" class="dest-box__title wow fadeInDown" data-wow-delay="0.5s">
+              Греция
+              <span class="dest-box__price">от 38 789 ₽</span>
+            </a>
+          </div>
+          <div class="dest-box box--6 wow fadeIn" style="background-image: url(images/dest-6.jpg);">
+            <a href="#" class="dest-box__title wow fadeInDown" data-wow-delay="0.5s">
+              Танзания
+              <span class="dest-box__price">от 139 597 ₽</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="recommends container">
+        <div class="recommends__title">
+          <h2 class="h2 wow fadeInLeft">Тагилтурист рекомендует</h2>
+        </div>
+        <div class="recommends__content">
+          <div class="box__head">
+            <div class="head-title">
+              <h3 class="h3 wow fadeInLeft" data-wow-delay="0.75s">Лучшие предложения:</h3>
+              <div class="select-country select wow fadeInLeft" data-wow-delay="0.85s" tabindex="1">
+                <div class="select_value">
+                  <img class="country-icon" src="images/icons/emirates-icon.svg" alt="">
+                  ОАЭ
+                </div>
+                <ul class="select_dropdown">
+                  <li class="select_option all">Все страны</li>
+                  <li class="select_option">
+                    <img class="country-icon" src="images/icons/emirates-icon.svg" alt="">
+                    ОАЭ
+                  </li>
+                  <li class="select_option">
+                    <img class="country-icon" src="images/icons/turkey-icon.svg" alt="">
+                    Турция
+                  </li>
+                  <li class="select_option">
+                    <img class="country-icon" src="images/icons/thailand-icon.svg" alt="">
+                    Тайланд
+                  </li>
+                  <li class="select_option">
+                    <img class="country-icon" src="images/icons/tanzania-icon.svg" alt="">
+                    Танзания
+                  </li>
+                  <li class="select_option">
+                    <img class="country-icon" src="images/icons/egypt-icon.svg" alt="">
+                    Египет
+                  </li>
+                  <li class="select_option"><img class="country-icon" src="images/icons/israel-icon.svg" alt="">
+                    Израиль
+                  </li>
+                  <li class="select_option"><img class="country-icon" src="images/icons/cyprus-icon.svg" alt="">
+                    Кипр
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#" class="link-more wow fadeInLeft" data-wow-delay="1s">Смотреть все</a>
+          </div>
+          <div class="box__content">
+
+            <div class="recommends-slider">
+              <div class="splide__track">
+                <div class="splide__list">
+                  <div class="splide__slide wow fadeIn" style="background-image: url(images/rec-1.jpg);">
+                    <a class="slider__slide" href="#" title="">
+                      <span class="slide__country wow fadeInDown">Дубай</span>
+                      <span class="slide__title h3 wow fadeInDown" data-wow-delay="0.65s">Crowne Plaza Deira</span>
+                      <span class="slide__stars stars--5 wow zoomIn" data-rating="5" data-wow-delay="0.75s"></span>
+                      <span href="#" class="btn-more wow fadeInUp" data-wow-delay="1s">от 85 543 ₽</span>
+                    </a>
+                  </div>
+                  <div class="splide__slide wow fadeIn" style="background-image: url(images/rec-2.jpg);">
+                    <a class="slider__slide" href="#" title="">
+                      <span class="slide__country wow fadeInDown">Аджман</span>
+                      <span class="slide__title h3 wow fadeInDown" data-wow-delay="0.65s">Bahi Ajman Palace Hotel</span>
+                      <span class="slide__stars stars--5 wow zoomIn" data-rating="5" data-wow-delay="0.75s"></span>
+                      <span href="#" class="btn-more wow fadeInUp" data-wow-delay="1s">от 96 768 ₽</span>
+                    </a>
+                  </div>
+                  <div class="splide__slide wow fadeIn" style="background-image: url(images/rec-3.jpg);">
+                    <a class="slider__slide" href="#" title="">
+                      <span class="slide__country wow fadeInDown" data-wow-delay="0.65s">Дубай</span>
+                      <span class="slide__title h3 wow fadeInDown">Hilton Dubai Creek</span>
+                      <span class="slide__stars stars--5 wow zoomIn" data-rating="5" data-wow-delay="0.75s"></span>
+                      <span href="#" class="btn-more wow fadeInUp" data-wow-delay="1s">от 94 366 ₽</span>
+                    </a>
+                  </div>
+                  <div class="splide__slide wow fadeIn" style="background-image: url(images/rec-1.jpg);">
+                    <a class="slider__slide" href="#" title="">
+                      <span class="slide__country wow fadeInDown">Дубай</span>
+                      <span class="slide__title h3 wow fadeInDown" data-wow-delay="0.65s">Crowne Plaza Deira</span>
+                      <span class="slide__stars stars--5 wow zoomIn" data-rating="5" data-wow-delay="0.75s"></span>
+                      <span href="#" class="btn-more wow fadeInUp" data-wow-delay="1s">от 85 543 ₽</span>
+                    </a>
+                  </div>
+                  <div class="splide__slide wow fadeIn" style="background-image: url(images/rec-2.jpg);">
+                    <a class="slider__slide" href="#" title="">
+                      <span class="slide__country wow fadeInDown">Аджман</span>
+                      <span class="slide__title h3 wow fadeInDown" data-wow-delay="0.65s">Bahi Ajman Palace Hotel</span>
+                      <span class="slide__stars stars--5 wow zoomIn" data-rating="5" data-wow-delay="0.75s"></span>
+                      <span href="#" class="btn-more wow fadeInUp" data-wow-delay="1s">от 96 768 ₽</span>
+                    </a>
+                  </div>
+                  <div class="splide__slide wow fadeIn" style="background-image: url(images/rec-3.jpg);">
+                    <a class="slider__slide" href="#" title="">
+                      <span class="slide__country wow fadeInDown" data-wow-delay="0.65s">Дубай</span>
+                      <span class="slide__title h3 wow fadeInDown">Hilton Dubai Creek</span>
+                      <span class="slide__stars stars--5 wow zoomIn" data-rating="5" data-wow-delay="0.75s"></span>
+                      <span href="#" class="btn-more wow fadeInUp" data-wow-delay="1s">от 94 366 ₽</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="splide__arrows">
+                <button class="splide__arrow splide__arrow--prev wow fadeInRight">
+                  <img src="images/icons/prev-arr.svg" alt="">
+                </button>
+                <span class="pages wow zoomIn" id="pages" data-wow-delay="0.75s">1 / 5</span>
+                <button class="splide__arrow splide__arrow--next wow fadeInLeft">
+                  <img src="images/icons/next-arr.svg" alt="">
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="container">
+          <div class="services__box">
+            <img class="wow fadeInDown" src="images/icons/present.svg" alt="Подарочный сертификат">
+            <h4 class="h4 wow fadeInUp" data-wow-delay="0.75s">Подарочный сертификат</h4>
+            <p class="subtitle wow fadeInUp" data-wow-delay="1s">Покупка подарочного сертификата на экскурсии, туры и
+              приключения.</p>
+            <a class="btn-more wow fadeInDown" data-wow-delay="1s" href="#">Подробнее</a>
+          </div>
+          <div class="services__box">
+            <img class="wow fadeInDown" data-wow-delay="0.75s" src="images/icons/card.svg" alt="Путешествие в Кредит">
+            <h4 class="h4 wow fadeInUp" data-wow-delay="1s">Путешествие в Кредит</h4>
+            <p class="subtitle wow fadeInUp" data-wow-delay="1.25s">Моментальное оформление кредита на туристические
+              путевки в офисе фирмы.</p>
+            <a class="btn-more wow fadeInDown" data-wow-delay="1.25s" href="#">Подробнее</a>
+          </div>
+          <div class="services__box">
+            <img class="wow fadeInDown" data-wow-delay="1s" src="images/icons/save.svg" alt="Страхование">
+            <h4 class="h4 wow fadeInUp" data-wow-delay="1.25s">Страхование</h4>
+            <p class="subtitle wow fadeInUp" data-wow-delay="1.5s">Медицинские расходы, несчастный случай, потеря
+              багажа, страхование имущества на время отпуска.</p>
+            <a class="btn-more wow fadeInDown" data-wow-delay="1.5s" href="#">Подробнее</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="subscribe">
+        <div class="container">
+          <div class="subscribe-box">
+            <div class="subscribe-box__title">
+              <h2 class="h2 wow fadeInRight">Подпишитесь на нашу рассылку</h2>
+              <p class="h5 wow fadeInRight" data-wow-delay="0.75s">Будьте всегда в курсе самых свежих новостей, полезных
+                советов и уникальных предложений!</p>
+            </div>
+            <div class="subscribe-box__input">
+              <div class="subscribe-input wow fadeInLeft">
+                <input class="input-email" type="text" placeholder="Email адрес" value="" id="" />
+                <input class="input-btn wow fadeInRight" data-wow-delay="0.75s" type="submit" value="Подписаться">
+              </div>
+              <p class="subscribe-box__info wow fadeInDown" data-wow-delay="1s">
+                Нажимая «Подписаться» вы даете согласие на
+                <a href="#" title="">обработку персональных данных</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog container">
+        <div class="blog__title">
+          <h2 class="h2 wow fadeInLeft">Новое в блоге</h2>
+          <a href="#" class="link-more wow fadeInLeft" data-wow-delay="1s">Перейти в блог</a>
+        </div>
+        <div class="blog__content">
+          <div class="entry entry--1 wow fadeIn" style="background-image: url(images/blog-1.jpg);">
+            <a class="entry__link" href="#" title="">
+              <span class="date wow fadeInDown" data-wow-delay="1s" title="">
+                <img src="images/icons/date.svg" alt="">
+                3 дня назад
+              </span>
+              <span class="title h3 wow fadeInUp" data-wow-delay="0.75s">Туры на майские праздники по регионам
+                России</span>
+              <span class="descr h5 wow fadeInUp" data-wow-delay="1s">Выбираем направление для отдыха в мае.</span>
+            </a>
+          </div>
+          <div class="entry entry--2 wow fadeIn" data-wow-delay="0.75s"
+            style="background-image: url(images/blog-2.jpg);">
+            <a class="entry__link" href="#" title="">
+              <span class="date wow fadeInDown" data-wow-delay="1s" title="">
+                <img src="images/icons/date.svg" alt="">
+                5 дней назад
+              </span>
+              <span class="title h3 wow fadeInUp" data-wow-delay="1s">Не Европой единой</span>
+              <span class="descr h5 wow fadeInUp" data-wow-delay="1.25s">Список альтернативных направлений, куда можно
+                отправиться туристу!</span>
+            </a>
+          </div>
+          <div class="entry entry--3 wow fadeIn" data-wow-delay="1s" style="background-image: url(images/blog-3.jpg);">
+            <a class="entry__link" href="#" title="">
+              <span class="date wow fadeInDown" data-wow-delay="1.5s" title="">
+                <img src="images/icons/date.svg" alt="">
+                7 дней назад
+              </span>
+              <span class="title h3 wow fadeInUp" data-wow-delay="1.25s">Гранд-тур по Северному Кавказу</span>
+              <span class="descr h5 wow fadeInUp" data-wow-delay="1.5s">От Эльбруса до Грозного с вылетом из
+                Екатеринбурга.</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews container">
+        <div class="reviews__title">
+          <h2 class="reviews-heading h2 wow fadeInLeft">Что говорят туристы
+          </h2>
+          <div class="reviews-descr wow fadeIn">
+            <span class="reviews-descr__title h3 wow fadeInDown">
+              Узнайте,<br />
+              что думают о нас<br />
+              наши клиенты
+            </span>
+            <a href="#" class="link-more wow fadeInDown" data-wow-delay="0.75s">Читать все отзывы</a>
+          </div>
+        </div>
+
+        <div class="reviews-slider">
+          <div class="splide__arrows">
+            <button class="splide__arrow splide__arrow--prev wow fadeInRight">
+              <img src="images/icons/prev-arr.svg" alt="">
+            </button>
+            <span class="pages wow zoomIn" data-wow-delay="0.75s">1 / 9</span>
+            <button class="splide__arrow splide__arrow--next wow fadeInLeft">
+              <img src="images/icons/next-arr.svg" alt="">
+            </button>
+          </div>
+          <div class="splide__track">
+            <div class="splide__list wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">
+              <div class="splide__slide">
+                <div class="user__name">Анна Е.<span class="user__stars stars--5"></span></div>
+                <div class="user__city">Москва, Россия</div>
+                <div class="user__comment">
+                  <p>
+                    Огромное спасибо за качественную организацию отдыха в "Бургасе". Приятно в очередной раз с вами
+                    планировать отдых.
+                  </p>
+                </div>
+              </div>
+              <div class="splide__slide">
+                <div class="user__name">Анастасия К.<span class="user__stars stars--5"></span></div>
+                <div class="user__city">Москва, Россия</div>
+                <div class="user__comment">
+                  <p>
+                    Огромное Вам спасибо за проделанную работу и качественную организацию отдыха. До встречи в следующем
+                    году!
+                  </p>
+                </div>
+              </div>
+              <div class="splide__slide">
+                <div class="user__name">Алексей С.<span class="user__stars stars--5"></span></div>
+                <div class="user__city">Москва, Россия</div>
+                <div class="user__comment">
+                  <p>
+                    Благодарим Вас за прекрасно организованный отдых. Очень все понравилось! Спасибо Вам за чуткое
+                    внимательное отношение, доброжелательность и оперативность!
+                  </p>
+                </div>
+              </div>
+              <div class="splide__slide">
+                <div class="user__name">Сергей О.<span class="user__stars stars--5"></span></div>
+                <div class="user__city">Москва, Россия</div>
+                <div class="user__comment">
+                  <p>
+                    Только что вернулись из поездки. Мы в полном восторге от тура! Тур был практически индивидуальный.
+                    Весь тур нас сопровождали гид и водитель. Программа была выполнена полностью и даже больше!
+                  </p>
+                </div>
+              </div>
+
+              <div class="splide__slide">
+                <div class="user__name">Анна Е.<span class="user__stars stars--5"></span></div>
+                <div class="user__city">Москва, Россия</div>
+                <div class="user__comment">
+                  <p>
+                    Огромное спасибо за качественную организацию отдыха в "Бургасе". Приятно в очередной раз с вами
+                    планировать отдых.
+                  </p>
+                </div>
+              </div>
+              <div class="splide__slide">
+                <div class="user__name">Анастасия К.<span class="user__stars stars--5"></span></div>
+                <div class="user__city">Москва, Россия</div>
+                <div class="user__comment">
+                  <p>
+                    Огромное Вам спасибо за проделанную работу и качественную организацию отдыха. До встречи в следующем
+                    году!
+                  </p>
+                </div>
+              </div>
+              <div class="splide__slide">
+                <div class="user__name">Алексей С.<span class="user__stars stars--5"></span></div>
+                <div class="user__city">Москва, Россия</div>
+                <div class="user__comment">
+                  <p>
+                    Благодарим Вас за прекрасно организованный отдых. Очень все понравилось! Спасибо Вам за чуткое
+                    внимательное отношение, доброжелательность и оперативность!
+                  </p>
+                </div>
+              </div>
+              <div class="splide__slide">
+                <div class="user__name">Сергей О.<span class="user__stars stars--5"></span></div>
+                <div class="user__city">Москва, Россия</div>
+                <div class="user__comment">
+                  <p>
+                    Только что вернулись из поездки. Мы в полном восторге от тура! Тур был практически индивидуальный.
+                    Весь тур нас сопровождали гид и водитель. Программа была выполнена полностью и даже больше!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer__sponsors">
+        <div class="footer__sponsors-inner">
+          <ul class="sponsors-list">
+            <li class="sponsors-item wow fadeIn" data-wow-delay="0.5s">
+              <img src="images/spons1.png" alt="">
+            </li>
+            <li class="sponsors-item wow fadeIn" data-wow-delay="0.6s">
+              <img src="images/spons2.png" alt="">
+            </li>
+            <li class="sponsors-item wow fadeIn" data-wow-delay="0.7s">
+              <img src="images/spons3.png" alt="">
+            </li>
+            <li class="sponsors-item wow fadeIn" data-wow-delay="0.8s">
+              <img src="images/spons4.png" alt="">
+            </li>
+            <li class="sponsors-item wow fadeIn" data-wow-delay="0.9s">
+              <img src="images/spons5.png" alt="">
+            </li>
+            <li class="sponsors-item wow fadeIn" data-wow-delay="1s">
+              <img src="images/spons6.png" alt="">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__section">
+        <div class="footer__desc wow fadeInUp">
+          <a class="footer__logo" href="#">
+            <img src="images/logo.svg" alt="Logo">
+          </a>
+          <p class="footer__slogan">
+            <span class="footer__tagline">Помните: отдыхать важно и нужно.</span>
+            Правильно организованный отдых поможет Вам не только получить незабываемые эмоции, но и восстановить
+            душевные и физические силы для дальнейшей активной жизни.
+          </p>
+          <p class="footer__copy">© 2021 ТФ Тагилтурист | Все права защищены.</p>
+        </div>
+        <div class="footer__nav wow fadeInUp">
+          <ul class="footer__nav-list">
+            <h4 class="h4">Туристам</h4>
+            <li class="list-item">
+              <a class="list-link" href="#">Подбор тура</a>
+            </li>
+            <li class="list-item">
+              <a class="list-link" href="#">Акции и спецпредложения</a>
+            </li>
+            <li class="list-item">
+              <a class="list-link" href="#">Типы отдыха</a>
+            </li>
+            <li class="list-item">
+              <a class="list-link" href="#">Памятки туристам</a>
+            </li>
+            <li class="list-item">
+              <a class="list-link" href="#">Виза</a>
+            </li>
+            <li class="list-item">
+              <a class="list-link" href="#">Страхование</a>
+            </li>
+            <li class="list-item">
+              <a class="list-link" href="#">Авиаперелеты</a>
+            </li>
+            <li class="list-item">
+              <a class="list-link" href="#">Отзывы и предложения</a>
+            </li>
+          </ul>
+          <ul class="footer__nav-list">
+            <h4 class="h4">Агентствам</h4>
+            <li class="list-item">
+              <a class="list-link" href="#">Агентская страница</a>
+            </li>
+            <li class="list-item">
+              <a class="list-link" href="#">Сотрудничество</a>
+            </li>
+            <li class="list-item">
+              <a class="list-link" href="#">Вопросы и ответы</a>
+            </li>
+          </ul>
+          <ul class="footer__nav-list">
+            <h4 class="h4">О компании</h4>
+            <li class="list-item">
+              <a class="list-link" href="#">О компании</a>
+            </li>
+            <li class="list-item">
+              <a class="list-link" href="#">Контакты</a>
+            </li>
+            <li class="list-item">
+              <a class="list-link" href="#">Новостной блог</a>
+            </li>
+            <li class="list-item">
+              <a class="list-link" href="#">Награды</a>
+            </li>
+            <li class="list-item">
+              <a class="list-link" href="#">Партнеры</a>
+            </li>
+          </ul>
+          <div class="footer__contacts">
+            <h4 class="h4">Контакты</h4>
+            <ul class="footer__contacts-list">
+              <li class="list-item list-item--adress">
+                <a class="list-link" href="https://goo.gl/maps/TjjH6unxNxMYwFeR6" title="Посмотреть на карте"
+                  target="_blank">
+                  г. Нижний Тагил, ул. Садовая, 10
+                </a>
+              </li>
+              <li class="list-item list-item--phone">
+                <a class="list-link" href="tel:+73435417505">+7 (3435) 41-75-05</a>
+                <br />
+                <a class="list-link" href="tel:+73435418507">+7 (3435) 41-85-07</a>
+              </li>
+              <li class="list-item list-item--email">
+                <a class="list-link" href="mailto:tagilturist@tagnet.ru">tagilturist@tagnet.ru</a>
+              </li>
+            </ul>
+            <ul class="footer__social-list">
+              <li class="list-item">
+                <a class="list-link list-link--vk" href="#" title="VK"></a>
+              </li>
+              <li class="list-item">
+                <a class="list-link list-link--instagram" href="#" title="Instagram"></a>
+              </li>
+              <li class="list-item">
+                <a class="list-link list-link--ok" href="#" title="OK"></a>
+              </li>
+              <li class="list-item">
+                <a class="list-link list-link--facebook" href="#" title="Facebook"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="js/splide.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/sale.json"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

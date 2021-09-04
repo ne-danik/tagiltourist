@@ -1,0 +1,28 @@
+let data = {
+  "items": [
+    {
+      "img": "images/rec-1.jpg",
+      "country": "ОАЭ",
+      "city": "Дубай",
+      "hotel": "Crowne Plaza Deira",
+      "stars": 5,
+      "price": 85543
+    },
+    {
+      "img": "images/rec-2.jpg",
+      "country": "ОАЭ",
+      "city": "Аджман",
+      "hotel": "Bahi Ajman Palace Hotel",
+      "stars": 5,
+      "price": 96768
+    },
+    {
+      "img": "images/rec-3.jpg",
+      "country": "ОАЭ",
+      "city": "Дубай",
+      "hotel": "Hilton Dubai Creek",
+      "stars": 5,
+      "price": 94366
+    }
+  ]
+};
